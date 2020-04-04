@@ -1,4 +1,3 @@
-#include "connectfuncs.h"
 
 /*
 Author:Faris Alotaibi
@@ -6,6 +5,9 @@ Author:Faris Alotaibi
 Description: client-side chat client. 
 Connect using ./client username [ip address] [portnum]
 */
+
+#include "connectfuncs.h"
+
 
 int main(int argc, char* argv[])
 {
