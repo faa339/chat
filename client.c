@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
 		exit(EXIT_FAILURE);
 	}
 
-	if(argc==3) 
+	if(argc==3) //If we've been given an ip address or hostname
 		ip = nameToAddress(argv[2]);
 	else
 		ip = nameToAddress("localhost");
